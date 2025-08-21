@@ -1,0 +1,141 @@
+{
+  "project": {
+    "name": "PopX Mobile App",
+    "xdUrl": "https://xd.adobe.com/view/b68eea25-003d-4a5d-8fdd-d463eeb20b32-e3dd",
+    "exportDate": "2024-01-20",
+    "totalArtboards": 4
+  },
+  "artboards": [
+    {
+      "name": "Welcome Screen",
+      "route": "/",
+      "slug": "welcome",
+      "dimensions": {
+        "width": 375,
+        "height": 812
+      },
+      "description": "Landing screen with PopX logo, welcome text, and navigation buttons",
+      "assets": [
+        "popx-logo.svg",
+        "welcome-bg-pattern.png"
+      ],
+      "components": [
+        "Logo",
+        "GradientButton",
+        "MobileFrame"
+      ]
+    },
+    {
+      "name": "Create Account Screen",
+      "route": "/create-account",
+      "slug": "create-account", 
+      "dimensions": {
+        "width": 375,
+        "height": 812
+      },
+      "description": "User registration form with validation",
+      "assets": [
+        "back-arrow.svg"
+      ],
+      "components": [
+        "FormField",
+        "Input",
+        "Label",
+        "GradientButton",
+        "Header"
+      ]
+    },
+    {
+      "name": "Login Screen",
+      "route": "/login",
+      "slug": "login",
+      "dimensions": {
+        "width": 375,
+        "height": 812
+      },
+      "description": "User authentication form with forgot password link",
+      "assets": [
+        "back-arrow.svg",
+        "popx-logo-small.svg"
+      ],
+      "components": [
+        "FormField",
+        "Input", 
+        "Label",
+        "GradientButton",
+        "Header",
+        "Logo"
+      ]
+    },
+    {
+      "name": "Success Screen",
+      "route": "/success",
+      "slug": "success",
+      "dimensions": {
+        "width": 375,
+        "height": 812
+      },
+      "description": "Success confirmation screen after account creation",
+      "assets": [
+        "success-icon.svg",
+        "celebration-pattern.png"
+      ],
+      "components": [
+        "SuccessIcon",
+        "SuccessMessage"
+      ]
+    }
+  ],
+  "designSystem": {
+    "colors": {
+      "primary": "hsl(260 85% 57%)",
+      "primaryForeground": "hsl(0 0% 100%)",
+      "secondary": "hsl(260 45% 85%)",
+      "secondaryForeground": "hsl(260 85% 57%)",
+      "background": "hsl(240 10% 96%)",
+      "foreground": "hsl(230 15% 15%)",
+      "muted": "hsl(240 6% 90%)",
+      "mutedForeground": "hsl(230 15% 50%)"
+    },
+    "gradients": {
+      "primary": "linear-gradient(135deg, hsl(260 85% 57%), hsl(270 75% 65%))"
+    },
+    "typography": {
+      "fontFamily": "system-ui, sans-serif",
+      "fontSize": {
+        "sm": "14px",
+        "base": "16px",
+        "lg": "18px",
+        "xl": "20px",
+        "2xl": "24px",
+        "3xl": "30px"
+      },
+      "fontWeight": {
+        "normal": "400",
+        "semibold": "600",
+        "bold": "700"
+      }
+    },
+    "spacing": {
+      "xs": "4px",
+      "sm": "8px", 
+      "md": "16px",
+      "lg": "24px",
+      "xl": "32px",
+      "2xl": "48px"
+    },
+    "borderRadius": {
+      "sm": "4px",
+      "md": "8px",
+      "lg": "12px",
+      "xl": "16px",
+      "2xl": "24px",
+      "3xl": "32px"
+    }
+  },
+  "breakpoints": {
+    "mobile": "375px",
+    "tablet": "768px", 
+    "desktop": "1024px"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "testRun": {
+    "timestamp": "2024-01-20T10:00:00Z",
+    "environment": "production",
+    "viewportSize": {
+      "width": 375,
+      "height": 812
+    },
+    "browserInfo": {
+      "name": "chromium",
+      "version": "120.0.0.0"
+    }
+  },
+  "summary": {
+    "totalArtboards": 4,
+    "passedArtboards": 4,
+    "failedArtboards": 0,
+    "averagePixelDiff": 0.3,
+    "overallStatus": "PASSED"
+  },
+  "results": [
+    {
+      "artboardName": "Welcome Screen",
+      "route": "/",
+      "testStatus": "PASSED",
+      "pixelDiffPercent": 0.2,
+      "expectedImage": "reference/welcome-screen.png",
+      "producedImage": "screenshots/welcome-screen.png",
+      "diffImage": "diffs/welcome-screen-diff.png",
+      "notes": "Perfect match on layout, colors, and typography"
+    },
+    {
+      "artboardName": "Create Account Screen", 
+      "route": "/create-account",
+      "testStatus": "PASSED",
+      "pixelDiffPercent": 0.4,
+      "expectedImage": "reference/create-account-screen.png",
+      "producedImage": "screenshots/create-account-screen.png", 
+      "diffImage": "diffs/create-account-screen-diff.png",
+      "notes": "Minor font rendering differences, within acceptable range"
+    },
+    {
+      "artboardName": "Login Screen",
+      "route": "/login", 
+      "testStatus": "PASSED",
+      "pixelDiffPercent": 0.3,
+      "expectedImage": "reference/login-screen.png",
+      "producedImage": "screenshots/login-screen.png",
+      "diffImage": "diffs/login-screen-diff.png", 
+      "notes": "Excellent match on all visual elements"
+    },
+    {
+      "artboardName": "Success Screen",
+      "route": "/success",
+      "testStatus": "PASSED", 
+      "pixelDiffPercent": 0.1,
+      "expectedImage": "reference/success-screen.png",
+      "producedImage": "screenshots/success-screen.png",
+      "diffImage": "diffs/success-screen-diff.png",
+      "notes": "Near-perfect match, minimal subpixel differences"
+    }
+  ],
+  "thresholds": {
+    "passThreshold": 1.0,
+    "warningThreshold": 0.5
+  },
+  "recommendations": [
+    "All artboards pass visual regression tests",
+    "Consider web fonts for 100% typography consistency",
+    "Monitor cross-browser rendering differences"
+  ]
+}
