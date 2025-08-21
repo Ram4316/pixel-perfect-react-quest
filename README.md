@@ -166,15 +166,11 @@ npm run lint         # Run ESLint
 npm run test         # Run unit tests
 npm run test:watch   # Run tests in watch mode
 npm run format       # Format code with Prettier
-
-# Git troubleshooting (if changes aren't appearing on GitHub)
-./scripts/git-troubleshoot.sh  # Diagnose Git workflow issues
 ```
 
 ## 📄 Documentation
 
 - [Pixel Check Notes](./notes/PIXEL_CHECK.md) - Implementation fidelity details
-- [Git Workflow Guide](./docs/GIT_WORKFLOW_GUIDE.md) - Codespace and VS Code Git troubleshooting
 <!-- Visual Report and Artboard Mapping files removed for clean delivery -->
 
 ## 🤝 Contributing
@@ -192,19 +188,6 @@ For questions or issues:
 - Open a GitHub issue
 - Check the documentation in `/notes/`
 - Review the visual report in `visual-report.json`
-
-### Git Workflow Issues
-
-If your changes from Codespace aren't appearing in GitHub:
-
-1. **Quick Diagnosis:** Run `./scripts/git-troubleshoot.sh` in your Codespace terminal
-2. **Detailed Guide:** Check [Git Workflow Guide](./docs/GIT_WORKFLOW_GUIDE.md)
-3. **Common Fix:** Ensure you've committed AND pushed your changes:
-   ```bash
-   git add .
-   git commit -m "Your changes description"
-   git push origin your-branch-name
-   ```
 
 ## 📄 License
 
