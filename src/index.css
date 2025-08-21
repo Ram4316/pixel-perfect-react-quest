@@ -21,7 +21,7 @@ All colors MUST be HSL.
     /* PopX Purple Gradient Theme */
     --primary: 260 85% 57%;
     --primary-foreground: 0 0% 100%;
-    --primary-gradient: linear-gradient(135deg, 260 85% 57%, 270 75% 65%);
+    --primary-gradient: linear-gradient(135deg, hsl(260 85% 57%), hsl(270 75% 65%));
     
     --secondary: 260 45% 85%;
     --secondary-foreground: 260 85% 57%;
@@ -75,7 +75,7 @@ All colors MUST be HSL.
 
     --primary: 260 85% 65%;
     --primary-foreground: 0 0% 100%;
-    --primary-gradient: linear-gradient(135deg, 260 85% 65%, 270 75% 75%);
+    --primary-gradient: linear-gradient(135deg, hsl(260 85% 65%), hsl(270 75% 75%));
 
     --secondary: 230 15% 15%;
     --secondary-foreground: 260 85% 65%;
