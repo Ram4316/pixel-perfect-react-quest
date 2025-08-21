@@ -78,14 +78,10 @@ npm run build
 
 # Preview production build
 npm run preview
-```
-
 ### Testing
 
 ```bash
 # Run unit tests
-npm run test
-
 # Run visual regression tests (when implemented)
 npm run visual-test
 
@@ -175,8 +171,7 @@ npm run format       # Format code with Prettier
 ## 📄 Documentation
 
 - [Pixel Check Notes](./notes/PIXEL_CHECK.md) - Implementation fidelity details
-- [Visual Report](./visual-report.json) - Automated testing results
-- [Artboard Mapping](./exported-artboards.json) - Design system documentation
+<!-- Visual Report and Artboard Mapping files removed for clean delivery -->
 
 ## 🤝 Contributing
 
